@@ -8,8 +8,6 @@ import userRoutes from './src/Routes/user.routes.js'
 import webinarRoutes from './src/Routes/webinar.routes.js'
 import connectDB from './src/Config/db.js'
 
-const allowedOrigins = ['*']
-
 dotenv.config()
 
 const app = express()
@@ -24,7 +22,7 @@ app.use(express.json())
 
 app.use(
   CORS({
-    origin: allowedOrigins,
+    origin: '*',
     credentials: true,
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
   }),
