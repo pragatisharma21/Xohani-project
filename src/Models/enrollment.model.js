@@ -9,5 +9,5 @@ const enrollmentSchema = new mongoose.Schema({
     }
 })
 
-const enrollment = mongoose.model("enrollment", enrollmentSchema)
-export default enrollment;
+const Enrollment = mongoose.model("enrollment", enrollmentSchema)
+export default Enrollment;

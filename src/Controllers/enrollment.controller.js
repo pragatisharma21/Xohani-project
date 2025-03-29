@@ -1,12 +1,12 @@
-import enrollment from "../Models/enrollment.model"
+import Enrollment from "../Models/enrollment.model.js"
 
 export const enrollUser = async (req, res, next) => {
   try {
 
-    const userId = req.params.userId
+    const userId = req.user.id
     const webinarId = req.params.webinarId
 
-    const enrollment  = await new enrollment({
+    const enrollment  = new Enrollment({
         webinarId,
         userId
     })
