@@ -90,5 +90,5 @@ The Webinar Management App is a full-stack web application that allows users to 
 
 
 ---
-Made with ❤️ by PRAGATI
+Made  by PRAGATI
 

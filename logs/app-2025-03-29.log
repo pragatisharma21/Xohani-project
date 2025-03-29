@@ -10,3 +10,5 @@
 [ERROR] 2025-03-29 16:01:54 - Error: Webinar validation failed: thumbnail: Path `thumbnail` is required. | URL: /api/webinar | Method: POST
 [INFO] 2025-03-29 16:01:54 - POST /api/webinar [31m500[0m 26.202ms - PostmanRuntime/7.43.0
 [INFO] 2025-03-29 16:02:20 - POST /api/webinar [32m201[0m 26.177ms - PostmanRuntime/7.43.0
+[INFO] 2025-03-29 16:38:11 - POST /api/user/signup [32m201[0m 522.382ms - PostmanRuntime/7.43.3
+[INFO] 2025-03-29 16:38:55 - POST /api/user/signup [32m201[0m 2797.836ms - PostmanRuntime/7.43.3
