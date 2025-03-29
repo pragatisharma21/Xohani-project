@@ -1,0 +1,12 @@
+[INFO] 2025-03-29 15:54:57 - GET /api/user/signup [33m404[0m 8.347ms - PostmanRuntime/7.43.0
+[INFO] 2025-03-29 15:55:03 - POST /api/user/signup [32m201[0m 2602.728ms - PostmanRuntime/7.43.0
+[INFO] 2025-03-29 15:56:04 - POST /api/user/login [32m200[0m 143.103ms - PostmanRuntime/7.43.0
+[INFO] 2025-03-29 15:56:53 - GET /api/user/profile/67e7ca7fd021a8222623df9c [32m200[0m 3.599ms - PostmanRuntime/7.43.0
+[INFO] 2025-03-29 15:57:26 - GET /api/webinar [32m200[0m 32.997ms - PostmanRuntime/7.43.0
+[INFO] 2025-03-29 15:57:46 - GET /api/webinar?search=%27hey%27 [32m200[0m 9.872ms - PostmanRuntime/7.43.0
+[INFO] 2025-03-29 16:01:05 - POST /api/webinar [33m400[0m 4.386ms - PostmanRuntime/7.43.0
+[ERROR] 2025-03-29 16:01:20 - Error: Cannot read properties of undefined (reading 'thumbnail') | URL: /api/webinar | Method: POST
+[INFO] 2025-03-29 16:01:20 - POST /api/webinar [31m500[0m 16.251ms - PostmanRuntime/7.43.0
+[ERROR] 2025-03-29 16:01:54 - Error: Webinar validation failed: thumbnail: Path `thumbnail` is required. | URL: /api/webinar | Method: POST
+[INFO] 2025-03-29 16:01:54 - POST /api/webinar [31m500[0m 26.202ms - PostmanRuntime/7.43.0
+[INFO] 2025-03-29 16:02:20 - POST /api/webinar [32m201[0m 26.177ms - PostmanRuntime/7.43.0
